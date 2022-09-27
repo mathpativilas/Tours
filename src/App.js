@@ -32,6 +32,7 @@ function App() {
 
   useEffect(() => {
     fetchtours();
+    // eslint-disable-next-line
   }, []);
 
   return (
